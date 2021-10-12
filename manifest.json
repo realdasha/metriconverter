@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Metric Converter",
+    "short_name": "Convert",
+    "description": "Converts to kilometers, kilograms and celcius.",
+    "version": "1.0.0",
+    "minimum_chrome_version": "38",
+    "permissions": ["contextMenus", "tabs"],
+    "icons": { "150": "150_logo.png" },
+    "background": { "page": "background.html" }
+}
